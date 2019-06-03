@@ -18,12 +18,546 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>CWON_Graphics_Testing</AssemblyName>
     <RootNamespace>CWON_Graphics_Testing</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="CWON_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="CWON_DB"><File>Gameplay.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <None Include="CWON_Graphics_Testing.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Animations\WON_Itsukushima_Movie.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\WON_Itsukushima_Movie.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WonderMovie.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Blythe_Intaglios_Wonder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Blythe_Intaglios__Box01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Burj_Khalifa.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Globetheatre_Wonder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Globetheatre__Globetheatre.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Leaning_Tower_Wonder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Leaning_Tower__Tower.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Neuschwanstein_Castle_Wonder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Neuschwanstein_Castle__Castle.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Neuschwanstein_Castle__Decal.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Uffizi_Wonder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Uffizi__Uffizi.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\blythe_intaglios__Box01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\blythe_intaglios__Box01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\blythe_intaglios__Tree_Cutter_DCL_Tree_Cutter.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\blythe_intaglios__Tree_Cutter_DCL_Tree_Cutter.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\burj_khalifa.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\burj_khalifa.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\globetheatre__globetheatre.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\globetheatre__globetheatre.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\globetheatre__globetheatre_buildout.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\globetheatre__globetheatre_buildout.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\globetheatre__plane01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\globetheatre__plane01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__leaning_tower_hb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__leaning_tower_hb.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__plane01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__plane01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__plane01_hb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__plane01_hb.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__tower.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\leaning_tower__tower.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\neuschwanstein_castle__castle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\neuschwanstein_castle__castle.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\neuschwanstein_castle__complete decal.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\neuschwanstein_castle__complete decal.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\neuschwanstein_castle__neuschwanstein_castle_hb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\neuschwanstein_castle__neuschwanstein_castle_hb.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__ground.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__ground.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__hb ground.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__hb ground.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__uffizi.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__uffizi.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__uffizi_hb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\uffizi__uffizi_hb.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_Itsukushima_Movie_Camera.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_Itsukushima_Movie_Camera.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_MachuPicchu_HMedit.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_MachuPicchu_HMedit.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_Tutorial.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_Tutorial.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Blythe_Intaglios_Diff.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Burj_Khalifa_SREF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\FX_Blk_Blk4x4.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\globeTheatre.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\globeTheatre_buildout.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\globeTheatre_Ground.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Itsukushima_Built.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Leaning_tower_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Leaning_tower_grnd_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Leaning_tower_HB_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Leaning_tower_HB_grnd_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Neuschwanstein_Castle_grnd_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Neuschwanstein_Castle_HB_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Neuschwanstein_HMedit.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Neuschwanstien_Castle_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TreeCut_Correct.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Ufizzi_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Ufizzi_Grnd_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Ufizzi_Grnd_HB_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\WON_MachuPicchu_HMedit.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff_large.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff_large.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_h.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_height.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_height.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_buildout.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_buildout.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_decal_heightmap.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_decal_heightmap.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_ground.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_ground.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_decal_heightmap.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_decal_heightmap.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_grnd_h_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_grnd_h_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_mountain_diff_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_mountain_diff_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstien_castle_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstien_castle_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_hb_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_hb_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_HMEdit.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_HMEdit.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MachuPicchu_HMedit.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MachuPicchu_HMedit.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\strategicview_buildings.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UITextures.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\WonderMovie.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Animations\" />
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
