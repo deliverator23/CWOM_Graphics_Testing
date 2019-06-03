@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_BUILDING_ITSUKUSHIMA_NAME" Language="en_US">
+      <Text>our Wonder</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ITSUKUSHIMA_DESCRIPTION" Language="en_US">
+      <Text>thats our new Wonder</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Blythe_Intaglios__Box01"/>
+			<m_ObjectName text="Blythe_Intaglios__Box01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Globetheatre__Globetheatre"/>
+			<m_ObjectName text="Globetheatre__Globetheatre"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leaning_Tower__Tower"/>
+			<m_ObjectName text="Leaning_Tower__Tower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Uffizi__Uffizi"/>
+			<m_ObjectName text="Uffizi__Uffizi"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Neuschwanstein_Castle__Castle"/>
+			<m_ObjectName text="Neuschwanstein_Castle__Castle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Neuschwanstein_Castle__Decal"/>
+			<m_ObjectName text="Neuschwanstein_Castle__Decal"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

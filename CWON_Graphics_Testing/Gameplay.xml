@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <Types>
+    <Row Type="BUILDING_ITSUKUSHIMA" Kind="KIND_BUILDING" />
+  </Types>
+  <Buildings>
+    <Row BuildingType="BUILDING_ITSUKUSHIMA" Name="LOC_BUILDING_ITSUKUSHIMA_NAME" Description="LOC_BUILDING_ITSUKUSHIMA_DESCRIPTION" PrereqTech="TECH_SAILING" Cost="10" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_HAGIA_SOPHIA_QUOTE" QuoteAudio="Play_HAGIASOPHIA_QUOTE"/>
+  </Buildings>
+  <Building_YieldChanges>
+    <Row BuildingType="BUILDING_ITSUKUSHIMA" YieldType="YIELD_CULTURE" YieldChange="3"/>
+  </Building_YieldChanges>
+  <Building_ValidTerrains>
+        <Row BuildingType="BUILDING_ITSUKUSHIMA" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ITSUKUSHIMA" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ITSUKUSHIMA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ITSUKUSHIMA" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ITSUKUSHIMA" TerrainType="TERRAIN_DESERT"/>
+  </Building_ValidTerrains>
+</GameData>
