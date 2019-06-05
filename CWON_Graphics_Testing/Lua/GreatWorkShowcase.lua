@@ -153,29 +153,13 @@ function UpdateGreatWork()
 			Controls.WritingDeco:SetOffsetY(Controls.WritingName:GetSizeY() + -20);
 		end
 		Controls.WritingDetails:SetHide(false);
-	elseif greatWorkObjectType == GREAT_WORK_ARTIFACT_TYPE or greatWorkObjectType == GREAT_WORK_RELIC_TYPE then
-		if greatWorkObjectType == GREAT_WORK_ARTIFACT_TYPE then
-			greatWorkType = greatWorkType:gsub("GREATWORK_ARTIFACT_", "");
-			local greatWorkID:number = tonumber(greatWorkType);
-			greatWorkID = ((greatWorkID - 1) % NUM_ARIFACT_TEXTURES) + 1;
-			Controls.GreatWorkImage:SetOffsetY(0);
-			Controls.GreatWorkImage:SetTexture("ARTIFACT_" .. greatWorkID);
-			Controls.GreatWorkName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
-		elseif greatWorkObjectType == GREAT_WORK_RELIC_TYPE then
-			greatWorkType = greatWorkType:gsub("GREATWORK_RELIC_", "");
-			local greatWorkID:number = tonumber(greatWorkType);
-			greatWorkID =  ((greatWorkID - 1) % NUM_RELIC_TEXTURES) + 1;
-			Controls.GreatWorkImage:SetOffsetY(0);
-			Controls.GreatWorkImage:SetTexture("RELIC_" .. greatWorkID);
-		end
-		Controls.GreatWorkName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
-		local nameSize:number = Controls.GreatWorkName:GetSizeX() + PADDING_BANNER;
-		local bannerSize:number = math.max(nameSize, SIZE_BANNER_MIN);
-		Controls.GreatWorkBanner:SetSizeX(bannerSize);
-		Controls.GreatWorkBanner:SetHide(false);
 	else
 		local greatWorkTexture:string = greatWorkType:gsub("GREATWORK_", "");
-		Controls.GreatWorkImage:SetOffsetY(-40);
+		if greatWorkObjectType == GREAT_WORK_ARTIFACT_TYPE or greatWorkObjectType == GREAT_WORK_RELIC_TYPE then
+			Controls.GreatWorkImage:SetOffsetY(0);
+		else
+			Controls.GreatWorkImage:SetOffsetY(-40);
+
 		Controls.GreatWorkImage:SetTexture(greatWorkTexture);
 		Controls.GreatWorkName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
 		local nameSize:number = Controls.GreatWorkName:GetSizeX() + PADDING_BANNER;

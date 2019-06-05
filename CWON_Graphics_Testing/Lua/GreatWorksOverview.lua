@@ -375,21 +375,7 @@ function GetGreatWorkIcon(greatWorkInfo:table)
 
 	local greatWorkIcon:string;
 	
-	if greatWorkInfo.GreatWorkObjectType == GREAT_WORK_ARTIFACT_TYPE then
-		local greatWorkType:string = greatWorkInfo.GreatWorkType;
-		greatWorkType = greatWorkType:gsub("GREATWORK_ARTIFACT_", "");
-		local greatWorkID:number = tonumber(greatWorkType);
-		greatWorkID = ((greatWorkID - 1) % NUM_ARIFACT_TEXTURES) + 1;
-		greatWorkIcon = "ICON_GREATWORK_ARTIFACT_" .. greatWorkID;
-	elseif greatWorkInfo.GreatWorkObjectType == GREAT_WORK_RELIC_TYPE then
-		local greatWorkType:string = greatWorkInfo.GreatWorkType;
-		greatWorkType = greatWorkType:gsub("GREATWORK_RELIC_", "");
-		local greatWorkID:number = tonumber(greatWorkType);
-		greatWorkID =  ((greatWorkID - 1) % NUM_RELIC_TEXTURES) + 1;
-		greatWorkIcon = "ICON_GREATWORK_RELIC_" .. greatWorkID;
-	else
-		greatWorkIcon = "ICON_" .. greatWorkInfo.GreatWorkType;
-	end
+	greatWorkIcon = "ICON_" .. greatWorkInfo.GreatWorkType;
 
 	local textureOffsetX:number, textureOffsetY:number, textureSheet:string = IconManager:FindIconAtlas(greatWorkIcon, SIZE_GREAT_WORK_ICON);
 	if(textureSheet == nil or textureSheet == "") then
