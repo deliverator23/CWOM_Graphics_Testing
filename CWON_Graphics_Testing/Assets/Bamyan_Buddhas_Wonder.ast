@@ -103,8 +103,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-7.381773</x>
-							<y>4.261872</y>
+							<x>-6.643596</x>
+							<y>3.835687</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -115,7 +115,7 @@
 						<m_Name text="Buddha1"/>
 						<m_BoneName text="WON_Itsukushima"/>
 						<m_ModelInstanceName text="WON_Itsukushima"/>
-						<m_scale>1.850000</m_scale>
+						<m_scale>1.665000</m_scale>
 					</Element>
 					<Element>
 						<m_CookParams>
@@ -151,8 +151,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>8.540606</x>
-							<y>-13.117637</y>
+							<x>7.686500</x>
+							<y>-11.805800</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -163,7 +163,7 @@
 						<m_Name text="Buddha2"/>
 						<m_BoneName text="WON_Itsukushima"/>
 						<m_ModelInstanceName text="WON_Itsukushima"/>
-						<m_scale>1.250000</m_scale>
+						<m_scale>1.125000</m_scale>
 					</Element>
 				</m_Points>
 			</m_attachmentPoints>
