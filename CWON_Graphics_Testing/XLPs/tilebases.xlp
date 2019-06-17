@@ -10,6 +10,10 @@
 	<m_PackageName text="landmarks/tilebases"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="Bamyan_Buddha"/>
+			<m_ObjectName text="Bamyan_Buddha"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Blythe_Intaglios__Box01"/>
 			<m_ObjectName text="Blythe_Intaglios__Box01"/>
 		</Element>
