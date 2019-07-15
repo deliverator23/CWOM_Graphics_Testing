@@ -57,6 +57,9 @@
     <Content Include="Assets\Burj_Khalifa.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Charminar.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Empire_State_Building.ast">
       <SubType>Content</SubType>
     </Content>
