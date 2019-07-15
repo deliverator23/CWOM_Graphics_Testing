@@ -80,18 +80,20 @@ function WildPredators(iPlayer)
                             for unitSpawnTerrain in GameInfo.UnitSpawnTerrains() do
 								--print (GameInfo.Terrains[pPlot:GetTerrainType()] .. " " .. GameInfo.Terrains[unitSpawnTerrain.TerrainType])
                                 if pPlot:GetTerrainType() == GameInfo.Terrains[unitSpawnTerrain.TerrainType].Index then
+                                    print (unitSpawnTerrain.TerrainType)
                                     canSpawn = true;
                                 end
                             end
 
                             for unitSpawnFeature in GameInfo.UnitSpawnFeatures() do
                                 if not pPlot:GetFeatureType() == nil and (pPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index) then
+                                    print (unitSpawnTerrain.FeatureType)
                                     canSpawn = true;
                                 end
                             end
 
                             if (canSpawn) then
-								print("spawning..." .. GameInfo.Units[unitSpawnContinent.UnitType].Index)
+								print("spawning...")
 								print (unitSpawnContinent.UnitType .." ".. unitSpawnContinent.ContinentType .." ".. unitSpawnContinent.RandomSize .. " " .. GameInfo.Continents[iContinent].ContinentType)
                                 local iX, iY = pPlot:GetX(), pPlot:GetY() 
                                 local pUnits = pPlayer:GetUnits()
