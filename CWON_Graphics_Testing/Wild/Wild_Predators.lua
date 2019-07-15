@@ -86,7 +86,7 @@ function WildPredators(iPlayer)
                             end
 
                             for unitSpawnFeature in GameInfo.UnitSpawnFeatures() do
-                                if not pPlot:GetFeatureType() == nil and (pPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnTerrain.UnitType) then
+                                if not pPlot:GetFeatureType() == nil and (pPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnFeature.UnitType) then
                                     print (unitSpawnTerrain.FeatureType)
                                     canSpawn = true;
                                 end
