@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Types>
+        <Row Type="UNIT_BIGCATS_JAGUAR" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_BIGCATS_LEOPARD" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_BIGCATS_LION" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_BIGCATS_PANTHER" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_BIGCATS_TIGER" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_BIGCATS_WHITE_TIGER" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_WOLF" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_PUMA" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_BIGCATS_SNOW_LEOPARD" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_GRIZZLYBEAR" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_POLARBEAR" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_PANDA" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_GORILLA" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_HIPPO" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_RHINOCEROS" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_HYENA" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_MANEDWOLF" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_BLACKBEAR" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_SPECTACLEDBEAR" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_JACKAL" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_DINGO" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_TASMANIANWOLF" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_AMERICANCROCODILE" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_BLACKCAIMAN" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_CHEETAH" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_FRESHWATER_CROCODILE" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_NILE_CROCODILE" Kind="KIND_UNIT"/>
+        <!-- Naval Units-->
+        <Row Type="UNIT_ANIMAL_MANTA" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_ORCA" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_TIGERSHARK" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_BULLSHARK" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_HAMMERHEAD" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_WHITESHARK" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_KRAKEN" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_ANIMAL_HUMPBACK_WHALE" Kind="KIND_UNIT"/>
+
+        <Row Type="TRAIT_CIVILIZATION_BARBARIANS_OCEAN" Kind="KIND_TRAIT"/>
+    </Types>
+    <Tags>
+        <Row Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_WILD_ANIMALS_STAMINA" Vocabulary="ABILITY_CLASS"/>
+    </Tags>
+    <TypeTags>
+        <Row Type="ABILITY_IGNORE_CROSSING_RIVERS_COST" Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS"/>
+        <Row Type="ABILITY_IGNORE_TERRAIN_COST" Tag="CLASS_WILD_ANIMALS_STAMINA"/>
+        <!-- Amphibious Units-->
+        <Row Type="UNIT_ANIMAL_HIPPO" Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS"/>
+        <Row Type="UNIT_ANIMAL_AMERICANCROCODILE" Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS"/>
+        <Row Type="UNIT_ANIMAL_BLACKCAIMAN" Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS"/>
+        <Row Type="UNIT_ANIMAL_FRESHWATER_CROCODILE" Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS"/>
+        <Row Type="UNIT_ANIMAL_NILE_CROCODILE" Tag="CLASS_WILD_ANIMALS_AMPHIBIOUS"/>
+        <!-- Stamina Units-->
+        <Row Type="UNIT_ANIMAL_WOLF" Tag="CLASS_WILD_ANIMALS_STAMINA"/>
+        <Row Type="UNIT_ANIMAL_MANEDWOLF" Tag="CLASS_WILD_ANIMALS_STAMINA"/>
+        <Row Type="UNIT_ANIMAL_JACKAL" Tag="CLASS_WILD_ANIMALS_STAMINA"/>
+        <Row Type="UNIT_ANIMAL_DINGO" Tag="CLASS_WILD_ANIMALS_STAMINA"/>
+        <Row Type="UNIT_ANIMAL_TASMANIANWOLF" Tag="CLASS_WILD_ANIMALS_STAMINA"/>
+        <!-- Melee Units-->
+        <Row Type="UNIT_BIGCATS_JAGUAR" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_BIGCATS_LEOPARD" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_BIGCATS_LION" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_BIGCATS_PANTHER" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_BIGCATS_TIGER" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_BIGCATS_WHITE_TIGER" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_WOLF" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_PUMA" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_BIGCATS_SNOW_LEOPARD" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_GRIZZLYBEAR" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_POLARBEAR" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_PANDA" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_GORILLA" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_RHINOCEROS" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_HYENA" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_MANEDWOLF" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_BLACKBEAR" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_SPECTACLEDBEAR" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_JACKAL" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_DINGO" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_TASMANIANWOLF" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_CHEETAH" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_HIPPO" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_AMERICANCROCODILE" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_BLACKCAIMAN" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_FRESHWATER_CROCODILE" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_ANIMAL_NILE_CROCODILE" Tag="CLASS_MELEE"/>
+        <!-- Naval Units-->
+        <Row Type="UNIT_ANIMAL_MANTA" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_ORCA" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_TIGERSHARK" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_BULLSHARK" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_HAMMERHEAD" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_WHITESHARK" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_KRAKEN" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_ANIMAL_HUMPBACK_WHALE" Tag="CLASS_NAVAL_MELEE"/>
+    </TypeTags>
+    <Units>
+        <Row UnitType="UNIT_BIGCATS_LEOPARD" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_LEOPARD_NAME"
+             Description="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_BIGCATS_SNOW_LEOPARD" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME"
+             Description="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_BIGCATS_LION" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_LION_NAME"
+             Description="LOC_UNIT_BIGCATS_LION_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="30" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_BIGCATS_JAGUAR" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_JAGUAR_NAME"
+             Description="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_BIGCATS_PANTHER" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_PANTHER_NAME"
+             Description="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_BIGCATS_TIGER" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_TIGER_NAME"
+             Description="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="26" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_BIGCATS_WHITE_TIGER" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME"
+             Description="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="26" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_WOLF" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_WOLF_NAME"
+             Description="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="22" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_PUMA" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_PUMA_NAME"
+             Description="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_GRIZZLYBEAR" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME"
+             Description="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_POLARBEAR" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_POLARBEAR_NAME"
+             Description="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_PANDA" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_PANDA_NAME"
+             Description="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="22" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_GORILLA" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_GORILLA_NAME"
+             Description="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_HIPPO" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_HIPPO_NAME"
+             Description="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="32" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_RHINOCEROS" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_RHINOCEROS_NAME"
+             Description="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="26" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_HYENA" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_HYENA_NAME"
+             Description="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="28" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_MANEDWOLF" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_MANEDWOLF_NAME"
+             Description="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="20" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_BLACKBEAR" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_BLACKBEAR_NAME"
+             Description="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_SPECTACLEDBEAR" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME"
+             Description="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_JACKAL" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_JACKAL_NAME"
+             Description="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="20" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_DINGO" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_DINGO_NAME"
+             Description="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="22" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_TASMANIANWOLF" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME"
+             Description="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="22" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_AMERICANCROCODILE" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME"
+             Description="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="26" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_BLACKCAIMAN" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME"
+             Description="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="26" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_CHEETAH" BaseMoves="3" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_CHEETAH_NAME"
+             Description="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="24" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_FRESHWATER_CROCODILE" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME"
+             Description="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="28" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_NILE_CROCODILE" BaseMoves="1" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME"
+             Description="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="28" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <!-- Naval Units-->
+        <Row UnitType="UNIT_ANIMAL_MANTA" Cost="90" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="28"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_MANTA_NAME"
+             Description="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_ORCA" Cost="90" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="32"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_ORCA_NAME"
+             Description="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_TIGERSHARK" Cost="90" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_TIGERSHARK_NAME"
+             Description="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_BULLSHARK" Cost="90" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_BULLSHARK_NAME"
+             Description="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_HAMMERHEAD" Cost="90" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="28"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME"
+             Description="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_WHITESHARK" Cost="90" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="32"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_WHITESHARK_NAME"
+             Description="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_KRAKEN" Cost="90" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="32"
+             FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_KRAKEN_NAME"
+             Description="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+
+        <Row UnitType="UNIT_ANIMAL_HUMPBACK_WHALE" Cost="90" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA"
+             Combat="34" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME"
+             Description="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" TraitType="TRAIT_BARBARIAN" CanTrain="false"/>
+    </Units>
+    <UnitAiInfos>
+        <Row UnitType="UNIT_BIGCATS_JAGUAR" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_JAGUAR" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_JAGUAR" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_JAGUAR" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_LEOPARD" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_LEOPARD" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_LEOPARD" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_LEOPARD" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_LION" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_LION" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_LION" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_LION" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_PANTHER" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_PANTHER" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_PANTHER" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_PANTHER" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_TIGER" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_TIGER" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_TIGER" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_TIGER" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_WHITE_TIGER" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_WHITE_TIGER" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_WHITE_TIGER" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_WHITE_TIGER" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_WOLF" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_WOLF" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_WOLF" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_WOLF" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_PUMA" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_PUMA" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_PUMA" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_PUMA" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_SNOW_LEOPARD" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_BIGCATS_SNOW_LEOPARD" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_BIGCATS_SNOW_LEOPARD" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_BIGCATS_SNOW_LEOPARD" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_GORILLA" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_GORILLA" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_GORILLA" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_GORILLA" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_GRIZZLYBEAR" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_GRIZZLYBEAR" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_GRIZZLYBEAR" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_GRIZZLYBEAR" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_POLARBEAR" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_POLARBEAR" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_POLARBEAR" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_POLARBEAR" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_PANDA" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_PANDA" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_PANDA" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_PANDA" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_HIPPO" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_HIPPO" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_HIPPO" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_HIPPO" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_RHINOCEROS" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_RHINOCEROS" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_RHINOCEROS" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_RHINOCEROS" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_HYENA" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_HYENA" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_HYENA" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_HYENA" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_MANEDWOLF" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_MANEDWOLF" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_MANEDWOLF" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_MANEDWOLF" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKBEAR" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKBEAR" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKBEAR" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKBEAR" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_SPECTACLEDBEAR" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_SPECTACLEDBEAR" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_SPECTACLEDBEAR" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_SPECTACLEDBEAR" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_JACKAL" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_JACKAL" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_JACKAL" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_JACKAL" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_DINGO" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_DINGO" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_DINGO" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_DINGO" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_TASMANIANWOLF" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_TASMANIANWOLF" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_TASMANIANWOLF" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_TASMANIANWOLF" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_AMERICANCROCODILE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_AMERICANCROCODILE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_AMERICANCROCODILE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_AMERICANCROCODILE" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKCAIMAN" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKCAIMAN" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKCAIMAN" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_BLACKCAIMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_CHEETAH" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_CHEETAH" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_CHEETAH" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_CHEETAH" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_FRESHWATER_CROCODILE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_FRESHWATER_CROCODILE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_FRESHWATER_CROCODILE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_FRESHWATER_CROCODILE" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_NILE_CROCODILE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_NILE_CROCODILE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_NILE_CROCODILE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_NILE_CROCODILE" AiType="UNITTYPE_LAND_COMBAT"/>
+        <!-- Naval Units-->
+        <Row UnitType="UNIT_ANIMAL_MANTA" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_MANTA" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_MANTA" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_MANTA" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_ORCA" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_ORCA" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_ORCA" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_ORCA" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_TIGERSHARK" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_TIGERSHARK" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_TIGERSHARK" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_TIGERSHARK" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_BULLSHARK" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_BULLSHARK" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_BULLSHARK" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_BULLSHARK" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_HAMMERHEAD" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_HAMMERHEAD" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_HAMMERHEAD" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_HAMMERHEAD" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_WHITESHARK" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_WHITESHARK" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_WHITESHARK" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_WHITESHARK" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_KRAKEN" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_KRAKEN" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_KRAKEN" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_KRAKEN" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_ANIMAL_HUMPBACK_WHALE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ANIMAL_HUMPBACK_WHALE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_ANIMAL_HUMPBACK_WHALE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_ANIMAL_HUMPBACK_WHALE" AiType="UNITTYPE_NAVAL"/>
+    </UnitAiInfos>
+    <Traits>
+        <Row TraitType="TRAIT_CIVILIZATION_BARBARIANS_OCEAN" Name="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME"
+             Description="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION"/>
+    </Traits>
+    <CivilizationTraits>
+        <Row CivilizationType="CIVILIZATION_BARBARIAN" TraitType="TRAIT_CIVILIZATION_BARBARIANS_OCEAN"/>
+    </CivilizationTraits>
+    <Modifiers>
+        <Row>
+            <ModifierId>TRAIT_BARBARIANS_OCEAN</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>TRAIT_BARBARIANS_OCEAN</ModifierId>
+            <Name>TerrainType</Name>
+            <Value>TERRAIN_OCEAN</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_BARBARIANS_OCEAN</ModifierId>
+            <Name>Valid</Name>
+            <Value>True</Value>
+        </Row>
+    </ModifierArguments>
+    <TraitModifiers>
+        <Row>
+            <TraitType>TRAIT_CIVILIZATION_BARBARIANS_OCEAN</TraitType>
+            <ModifierId>TRAIT_BARBARIANS_OCEAN</ModifierId>
+        </Row>
+    </TraitModifiers>
+</GameData>
