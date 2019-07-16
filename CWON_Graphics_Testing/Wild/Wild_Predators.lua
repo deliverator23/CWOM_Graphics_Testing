@@ -39,7 +39,25 @@ local baseContinents = {
     "CONTINENT_OCEANIA"
 }
 
+local m_ContinentToBaseContinent = {}
+
 function WildPredators(iPlayer)
+
+	local tContinents = Map.GetContinentsInUse()
+
+	if m_ContinentToBaseContinent ~= nil then
+		for iContinent in tContinents do
+			for baseContinent in baseContinents do
+				if (GameInfo.Continents[iContinent].ContinentType == baseContinent) then
+					m_ContinentToBaseContinent[iContinent] = baseContinent
+				end
+			end
+
+			if m_ContinentToBaseContinent[iContinent] == nil then
+				m_ContinentToBaseContinent[iContinent] = baseContinents[math.random(#baseContinents)]
+			end
+		end
+	end
 
 	if (PlayerConfigurations[iPlayer]:GetCivilizationTypeName() == "CIVILIZATION_BARBARIAN") then
 
@@ -47,67 +65,70 @@ function WildPredators(iPlayer)
 		math.randomseed(os.time()) --set seed for rng
         for i=1,4 do math.random() end --extra math.randoms to progress the seed and provide a greater degree of randomness
 
-		local tContinents = Map.GetContinentsInUse()
+		for iContinent in tContinents do
 
-		for i, iContinent in ipairs(tContinents) do
+			local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
+			local spawningRuleContinent = m_ContinentToBaseContinent[iContinent]
+			local spawnedPlots = {}
 
             for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
 
-                local matchingContinent = false;
+				if (math.random(unitSpawnContinent.RandomSize) == 1) then
 
-                if (GameInfo.Continents[iContinent].ContinentType == unitSpawnContinent.ContinentType) then
-                    matchingContinent = true;
-                else
-                    local baseContinentId = i % #baseContinents
-                    if (baseContinents[baseContinentId] == unitSpawnContinent.ContinentType) then
-                        matchingContinent = true;
-                    end
-                end
+					-- Remove ineligible plots
+					if (eligiblePlots ~= nil and #eligiblePlots > 0 and unitSpawnContinent.ContinentType == spawningRuleContinent) then
 
-                if (matchingContinent) then
+						for currentPlotIndex, currentPlot in ipairs(eligiblePlots) do
 
-                    local pPlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
-                    if (pPlots ~= nil) and (table.count(pPlots) > 0) then
+							local canSpawn = false;
 
-						--print (unitSpawnContinent.UnitType .." ".. unitSpawnContinent.ContinentType .." ".. unitSpawnContinent.RandomSize .. " " .. GameInfo.Continents[iContinent].ContinentType)
+							for unitSpawnTerrain in GameInfo.UnitSpawnTerrains() do
+								if pPlot:GetTerrainType() == GameInfo.Terrains[unitSpawnTerrain.TerrainType].Index and unitSpawnContinent.UnitType == unitSpawnTerrain.UnitType then
+									canSpawn = true;
+								end
+							end
 
-                        if (math.random(unitSpawnContinent.RandomSize) == 1) then
-                            local myplotIndex = math.random(table.count(pPlots));
-                            local pPlot = pPlots[myplotIndex];
-                            local canSpawn = false;
+							for unitSpawnFeature in GameInfo.UnitSpawnFeatures() do
+								if pPlot:GetFeatureType() ~= nil and (pPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnFeature.UnitType) then
+									canSpawn = true;
+								end
+							end
 
+							for spawnedPlot in spawnedPlots do
+								if spawnedPlot == currentPlotIndex then
+									canSpawn = false;
+								end
+							end
 
-                            for unitSpawnTerrain in GameInfo.UnitSpawnTerrains() do
-								--print (GameInfo.Terrains[pPlot:GetTerrainType()] .. " " .. GameInfo.Terrains[unitSpawnTerrain.TerrainType])
-                                if pPlot:GetTerrainType() == GameInfo.Terrains[unitSpawnTerrain.TerrainType].Index and unitSpawnContinent.UnitType == unitSpawnTerrain.UnitType then
-                                    print (unitSpawnTerrain.TerrainType)
-                                    canSpawn = true;
-                                end
-                            end
+							if (not canSpawn) then
+								table.remove(eligiblePlots, currentPlotIndex)
+							end
+						end
+					end
 
-                            for unitSpawnFeature in GameInfo.UnitSpawnFeatures() do
-                                if not pPlot:GetFeatureType() == nil and (pPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnFeature.UnitType) then
-                                    print (unitSpawnTerrain.FeatureType)
-                                    canSpawn = true;
-                                end
-                            end
+					-- Randomly select from eligible plots and spawn unit
+					if (#eligiblePlots > 0) then
+						local spawnPlotIndex = math.random(#eligiblePlots);
+						local spawnPlot = eligiblePlots[spawnPlotIndex];
 
-                            if (canSpawn) then
-								print("spawning...")
-								print (unitSpawnContinent.UnitType .." ".. unitSpawnContinent.ContinentType .." ".. unitSpawnContinent.RandomSize .. " " .. GameInfo.Continents[iContinent].ContinentType)
-                                local iX, iY = pPlot:GetX(), pPlot:GetY() 
-                                local pUnits = pPlayer:GetUnits()
-                                pUnits:Create(GameInfo.Units[unitSpawnContinent.UnitType].Index, iX, iY); 
-                                table.remove(pPlots, myplotIndex)
-                            end
-                        end	
-                    end
-                end
+						local spawnPlotTerrain = spawnPlot:GetTerrainType()
+						local spawnPlotFeature = "NO_FEATURE"
+
+						if spawnPlot:GetFeatureType() ~= nil then
+							spawnPlotFeature = spawnPlot:GetFeatureType()
+						end
+
+						print("spawning...")
+						print (unitSpawnContinent.UnitType .." ".. GameInfo.Continents[iContinent].ContinentType .." ".. unitSpawnContinent.ContinentType .." ".. unitSpawnContinent.RandomSize .. " " .. spawnPlotTerrain .. " " .. spawnPlotFeature)
+						local pUnits = pPlayer:GetUnits()
+						pUnits:Create(GameInfo.Units[unitSpawnContinent.UnitType].Index, spawnPlot:GetX(), spawnPlot:GetY());
+						table.insert(spawnedPlots, spawnPlotIndex)
+					end
+				end
             end
         end
     end    
-end       
-    
+end
     
 GameEvents.PlayerTurnStarted.Add(WildPredators)
 
