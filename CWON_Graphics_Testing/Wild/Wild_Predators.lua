@@ -30,7 +30,7 @@ function GetValidPlotsFromPlotIndexTable(tTable)
     return tNewTable
 end
 
-local baseContinents = {
+local tBaseContinents = {
     "CONTINENT_AFRICA",
     "CONTINENT_EUROPE",
     "CONTINENT_NORTH_AMERICA",
@@ -47,14 +47,14 @@ function WildPredators(iPlayer)
 
     if m_ContinentToBaseContinent ~= nil then
         for ci, iContinent in ipairs(tContinents) do
-            for bi, baseContinent in ipairs(baseContinents) do
+            for bi, baseContinent in ipairs(tBaseContinents) do
                 if (GameInfo.Continents[iContinent].ContinentType == baseContinent) then
                     m_ContinentToBaseContinent[iContinent] = baseContinent
                 end
             end
 
             if m_ContinentToBaseContinent[iContinent] == nil then
-                m_ContinentToBaseContinent[iContinent] = baseContinents[math.random(#baseContinents)]
+                m_ContinentToBaseContinent[iContinent] = tBaseContinents[math.random(#tBaseContinents)]
             end
         end
     end
