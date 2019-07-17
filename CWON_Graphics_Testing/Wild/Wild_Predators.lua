@@ -46,8 +46,8 @@ function WildPredators(iPlayer)
     local tContinents = Map.GetContinentsInUse()
 
     if m_ContinentToBaseContinent ~= nil then
-        for iContinent in tContinents do
-            for baseContinent in baseContinents do
+        for ci, iContinent in ipairs(tContinents) do
+            for bi, baseContinent in ipairs(baseContinents) do
                 if (GameInfo.Continents[iContinent].ContinentType == baseContinent) then
                     m_ContinentToBaseContinent[iContinent] = baseContinent
                 end
@@ -65,7 +65,7 @@ function WildPredators(iPlayer)
         math.randomseed(os.time()) --set seed for rng
         for i = 1, 4 do math.random() end --extra math.randoms to progress the seed and provide a greater degree of randomness
 
-        for iContinent in tContinents do
+        for ci, iContinent in ipairs(tContinents) do
 
             local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
             local spawningRuleContinent = m_ContinentToBaseContinent[iContinent]
@@ -78,7 +78,7 @@ function WildPredators(iPlayer)
                     -- Remove ineligible plots
                     if (eligiblePlots ~= nil and #eligiblePlots > 0 and unitSpawnContinent.ContinentType == spawningRuleContinent) then
 
-                        for currentPlotIndex, currentPlot in ipairs(eligiblePlots) do
+                        for ci, currentPlot in ipairs(eligiblePlots) do
 
                             local canSpawn = false;
 
@@ -94,14 +94,14 @@ function WildPredators(iPlayer)
                                 end
                             end
 
-                            for spawnedPlot in spawnedPlots do
-                                if spawnedPlot == currentPlotIndex then
+                            for si, spawnedPlot in ipairs(spawnedPlots) do
+                                if spawnedPlot == currentPlot then
                                     canSpawn = false;
                                 end
                             end
 
                             if (not canSpawn) then
-                                table.remove(eligiblePlots, currentPlotIndex)
+                                table.remove(eligiblePlots, currentPlot)
                             end
                         end
                     end
@@ -122,7 +122,7 @@ function WildPredators(iPlayer)
                         print(unitSpawnContinent.UnitType .. " " .. GameInfo.Continents[iContinent].ContinentType .. " " .. unitSpawnContinent.ContinentType .. " " .. unitSpawnContinent.RandomSize .. " " .. spawnPlotTerrain .. " " .. spawnPlotFeature)
                         local pUnits = pPlayer:GetUnits()
                         pUnits:Create(GameInfo.Units[unitSpawnContinent.UnitType].Index, spawnPlot:GetX(), spawnPlot:GetY());
-                        table.insert(spawnedPlots, spawnPlotIndex)
+                        table.insert(spawnedPlots, spawnPlot)
                     end
                 end
             end
