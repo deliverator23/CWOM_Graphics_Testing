@@ -39,15 +39,17 @@ local tBaseContinents = {
     "CONTINENT_OCEANIA"
 }
 
-local m_ContinentToBaseContinent = {}
+local m_ContinentToBaseContinent;
 
 function WildPredators(iPlayer)
 
     local tContinents = Map.GetContinentsInUse()
 
-    if m_ContinentToBaseContinent ~= nil then
+    if m_ContinentToBaseContinent == nil then
+        m_ContinentToBaseContinent = {}
         for ci, iContinent in ipairs(tContinents) do
             for bi, baseContinent in ipairs(tBaseContinents) do
+                print("iContinent: " .. iContinent .. "; baseContinent: " .. baseContinent)
                 if (GameInfo.Continents[iContinent].ContinentType == baseContinent) then
                     m_ContinentToBaseContinent[iContinent] = baseContinent
                 end
@@ -56,6 +58,7 @@ function WildPredators(iPlayer)
             if m_ContinentToBaseContinent[iContinent] == nil then
                 m_ContinentToBaseContinent[iContinent] = tBaseContinents[math.random(#tBaseContinents)]
             end
+            print (GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent])
         end
     end
 
@@ -83,13 +86,13 @@ function WildPredators(iPlayer)
                             local canSpawn = false;
 
                             for unitSpawnTerrain in GameInfo.UnitSpawnTerrains() do
-                                if pPlot:GetTerrainType() == GameInfo.Terrains[unitSpawnTerrain.TerrainType].Index and unitSpawnContinent.UnitType == unitSpawnTerrain.UnitType then
+                                if currentPlot:GetTerrainType() == GameInfo.Terrains[unitSpawnTerrain.TerrainType].Index and unitSpawnContinent.UnitType == unitSpawnTerrain.UnitType then
                                     canSpawn = true;
                                 end
                             end
 
                             for unitSpawnFeature in GameInfo.UnitSpawnFeatures() do
-                                if pPlot:GetFeatureType() ~= nil and (pPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnFeature.UnitType) then
+                                if currentPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnFeature.UnitType then
                                     canSpawn = true;
                                 end
                             end
@@ -101,6 +104,9 @@ function WildPredators(iPlayer)
                             end
 
                             if (not canSpawn) then
+                                local removePlotTerrain = currentPlot:GetTerrainType()
+                                local removePlotFeature = currentPlot:GetFeatureType()
+                                print(spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. "  removing tile: " .. currentPlot .. " " .. removePlotTerrain .. " " .. removePlotFeature .. "  #eligiblePlots:" .. #eligiblePlots .. " #spawnedPlots:" .. #spawnedPlots)
                                 table.remove(eligiblePlots, currentPlot)
                             end
                         end
@@ -112,11 +118,7 @@ function WildPredators(iPlayer)
                         local spawnPlot = eligiblePlots[spawnPlotIndex];
 
                         local spawnPlotTerrain = spawnPlot:GetTerrainType()
-                        local spawnPlotFeature = "NO_FEATURE"
-
-                        if spawnPlot:GetFeatureType() ~= nil then
-                            spawnPlotFeature = spawnPlot:GetFeatureType()
-                        end
+                        local spawnPlotFeature = spawnPlot:GetFeatureType()
 
                         print("spawning...")
                         print(unitSpawnContinent.UnitType .. " " .. GameInfo.Continents[iContinent].ContinentType .. " " .. unitSpawnContinent.ContinentType .. " " .. unitSpawnContinent.RandomSize .. " " .. spawnPlotTerrain .. " " .. spawnPlotFeature)
