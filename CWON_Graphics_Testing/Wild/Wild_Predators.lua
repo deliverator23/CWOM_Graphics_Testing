@@ -109,7 +109,7 @@ function WildPredators(iPlayer)
                             if (not canSpawn) then
                                 local removePlotTerrain = currentPlot:GetTerrainType()
                                 local removePlotFeature = currentPlot:GetFeatureType()
-                                print(spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. "  removing tile: " .. currentPlot .. " " .. removePlotTerrain .. " " .. removePlotFeature .. "  #eligiblePlots:" .. #eligiblePlots .. " #spawnedPlots:" .. #spawnedPlots)
+                                print(spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. "  removing tile: " .. currentPlot:GetX() .. "," .. currentPlot:GetY() .. " " .. removePlotTerrain .. " " .. removePlotFeature .. "  #eligiblePlots:" .. #eligiblePlots .. " #spawnedPlots:" .. #spawnedPlots)
                                 table.remove(eligiblePlots, currentPlot)
                             end
                         end
