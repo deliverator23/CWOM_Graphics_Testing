@@ -115,7 +115,6 @@ function WildPredators(iPlayer)
                             end
 
                             for unitSpawnFeature in GameInfo.UnitSpawnFeatures() do
-                                print(currentPlot:GetFeatureType() .. "; " .. unitSpawnFeature.FeatureType .. "; " .. unitSpawnContinent.UnitType .. "; " .. unitSpawnFeature.UnitType)
                                 if currentPlot:GetFeatureType() > -1 then
                                     if currentPlot:GetFeatureType() == GameInfo.Features[unitSpawnFeature.FeatureType].Index and unitSpawnContinent.UnitType == unitSpawnFeature.UnitType then
                                         canSpawn = true
@@ -138,9 +137,10 @@ function WildPredators(iPlayer)
                         end
 
                         -- Randomly select from eligible plots and spawn unit
-                        if (tablelength(eligiblePlots) > 0) then
-                            local randomEligiblePlotsPosition = math.random(tablelength(eligiblePlots))
-                            local spawnPlot = getelementatpos(eligiblePlots, randomEligiblePlotsPosition)
+                        local iNumEligiblePlots = tablelength(eligiblePlots)
+                        if iNumEligiblePlots > 0 then
+                            local iRandomEligiblePlotsPosition = math.random(iNumEligiblePlots)
+                            local spawnPlot = getelementatpos(eligiblePlots, iRandomEligiblePlotsPosition)
                             local spawnPlotTerrain = spawnPlot:GetTerrainType()
                             local spawnPlotFeature = spawnPlot:GetFeatureType()
 
