@@ -42,6 +42,9 @@
     <Content Include="ArtDefs\WonderMovie.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Abu_Simbel.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Bamyan_Buddha.ast">
       <SubType>Content</SubType>
     </Content>
@@ -238,6 +241,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\WON_Tutorial.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Abu_Simbel.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Abu_Sphinx.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Archways.mtl">
