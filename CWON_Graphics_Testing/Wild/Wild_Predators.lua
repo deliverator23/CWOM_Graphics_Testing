@@ -138,9 +138,6 @@ function WildPredators(iPlayer)
 						end
 
 						if (not canSpawn) then
-							local removePlotTerrain = currentPlot:GetTerrainType()
-							local removePlotFeature = currentPlot:GetFeatureType()
-
 							eligiblePlots[currentPlotIndex] = nil
 						end
 					end
