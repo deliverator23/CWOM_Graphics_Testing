@@ -73,17 +73,18 @@ function WildPredators(iPlayer)
     if m_BaseContinentSumRandomSize == nil then
         m_BaseContinentSumRandomSize = {}
         for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
-            if m_BaseContinentSumRandomSize[unitSpawnContinent] == nil then
-                m_BaseContinentSumRandomSize[unitSpawnContinent] = unitSpawnContinent.RandomSize
+            if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] == nil then
+                m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] = unitSpawnContinent.RandomSize
             else
-                local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent]
-                m_BaseContinentSumRandomSize[unitSpawnContinent] = current_sum + unitSpawnContinent.RandomSize
+                local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType]
+                m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] = current_sum + unitSpawnContinent.RandomSize
             end
         end
     end
 
     if m_ContinentToBaseContinent == nil then
         m_ContinentToBaseContinent = {}
+        m_ContinentPlots = {}
         local tCurrentContinentPool = tBaseContinents
 
         for ci, iContinent in ipairs(tContinents) do
