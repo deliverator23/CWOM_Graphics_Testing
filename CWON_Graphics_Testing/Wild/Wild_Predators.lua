@@ -151,11 +151,15 @@ function WildPredators(iPlayer)
                         if iNumEligiblePlots > 0 then
                             local iRandomEligiblePlotsPosition = math.random(iNumEligiblePlots)
                             local spawnPlot = getelementatpos(eligiblePlots, iRandomEligiblePlotsPosition)
-                            local spawnPlotTerrain = spawnPlot:GetTerrainType()
-                            local spawnPlotFeature = spawnPlot:GetFeatureType()
+
+                            local spawnPlotTerrain = getelementatpos(GameInfo.Terrains, spawnPlot:GetTerrainType()).TerrainType
+                            local spawnPlotFeature = "NO_FEATURE"
+                            if spawnPlot:GetFeatureType() >= 0 then
+                                spawnPlotFeature = getelementatpos(GameInfo.Features, spawnPlot:GetFeatureType()).FeatureType
+                            end
 
                             print("spawning...")
-                            print(unitSpawnContinent.UnitType .. " " .. GameInfo.Continents[iContinent].ContinentType .. " " .. unitSpawnContinent.ContinentType .. " " .. unitSpawnContinent.RandomSize .. " " .. spawnPlotTerrain .. " " .. spawnPlotFeature)
+                            print(unitSpawnContinent.UnitType .. " " .. GameInfo.Continents[iContinent].ContinentType .. " " .. unitSpawnContinent.ContinentType .. " " .. spawnPlotTerrain .. " " .. spawnPlotFeature)
                             local pUnits = pPlayer:GetUnits()
                             pUnits:Create(GameInfo.Units[unitSpawnContinent.UnitType].Index, spawnPlot:GetX(), spawnPlot:GetY())
                             table.insert(spawnedPlots, spawnPlot)
