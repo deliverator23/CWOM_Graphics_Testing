@@ -64,10 +64,23 @@ local tBaseContinents = {
 
 local m_ContinentToBaseContinent
 local m_ContinentPlots
+local m_BaseContinentSumRandomSize
 
 function WildPredators(iPlayer)
 
     local tContinents = Map.GetContinentsInUse()
+
+    if m_BaseContinentSumRandomSize == nil then
+        m_BaseContinentSumRandomSize = {}
+        for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
+            if m_BaseContinentSumRandomSize[unitSpawnContinent] == nil then
+                m_BaseContinentSumRandomSize[unitSpawnContinent] = unitSpawnContinent.RandomSize
+            else
+                local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent]
+                m_BaseContinentSumRandomSize[unitSpawnContinent] = current_sum + unitSpawnContinent.RandomSize
+            end
+        end
+    end
 
     if m_ContinentToBaseContinent == nil then
         m_ContinentToBaseContinent = {}
@@ -94,7 +107,7 @@ function WildPredators(iPlayer)
             local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
             m_ContinentPlots[iContinent] = tablelength(eligiblePlots)
 
-            print(GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent] .. " plots " .. m_ContinentPlots[iContinent])
+            print(GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent] .. ", plots: " .. m_ContinentPlots[iContinent] .. ", random size sum: " .. m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]])
         end
     end
 
