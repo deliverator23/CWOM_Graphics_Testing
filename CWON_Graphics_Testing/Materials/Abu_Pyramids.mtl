@@ -3,17 +3,17 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="IMP_Sphinx_B"/>
+				<m_ObjectName text="Dark_Pyramids_B"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="IMP_Sphinx_N"/>
+				<m_ObjectName text="WON_Pyramids_N"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Normal"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Sphinx_Baked_AO"/>
+				<m_ObjectName text="White_AO"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="AO"/>
 			</Element>
@@ -22,7 +22,7 @@
 				<m_ParamName text="Seperate_AO_UV"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="IMP_Sphinx_M"/>
+				<m_ObjectName text="WON_Pyramids_M"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Metalness"/>
 			</Element>
@@ -32,7 +32,7 @@
 				<m_ParamName text="Opacity"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="IMP_Sphinx_G"/>
+				<m_ObjectName text="WON_Pyramids_G"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Gloss"/>
 			</Element>
@@ -51,30 +51,17 @@
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="TintMask"/>
 			</Element>
-			<Element class="AssetObjects..Coord2DValue">
-				<m_x>0.000000</m_x>
-				<m_y>0.000000</m_y>
-				<m_ParamName text="UV_ScrollRate"/>
-			</Element>
-			<Element class="AssetObjects..FloatValue">
-				<m_fValue>0.000000</m_fValue>
-				<m_ParamName text="LightMap_Minimum_Weight"/>
-			</Element>
-			<Element class="AssetObjects..FloatValue">
-				<m_fValue>0.000000</m_fValue>
-				<m_ParamName text="Emissive_Minimum_Weight"/>
-			</Element>
 		</m_Values>
 	</m_CookParams>
 	<m_Version>
-		<major>4</major>
+		<major>3</major>
 		<minor>0</minor>
-		<build>326</build>
-		<revision>432</revision>
+		<build>185</build>
+		<revision>240</revision>
 	</m_Version>
 	<m_ClassName text="Landmark"/>
 	<m_DataFiles/>
-	<m_Name text="Abu_Sphinx"/>
+	<m_Name text="Abu_Pyramids"/>
 	<m_Description text=""/>
 	<m_Tags>
 		<Element text="Landmark"/>
