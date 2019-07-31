@@ -63,6 +63,7 @@ local tBaseContinents = {
 }
 
 local m_ContinentToBaseContinent
+local m_ContinentPlots
 
 function WildPredators(iPlayer)
 
@@ -75,14 +76,13 @@ function WildPredators(iPlayer)
         for ci, iContinent in ipairs(tContinents) do
 
             for bi, baseContinent in ipairs(tCurrentContinentPool) do
-                --print("iContinent: " .. iContinent .. "; baseContinent: " .. baseContinent)
                 if GameInfo.Continents[iContinent].ContinentType == baseContinent then
                     m_ContinentToBaseContinent[iContinent] = baseContinent
                 end
             end
 
             if m_ContinentToBaseContinent[iContinent] == nil then
-                selContinentId = math.random(#tCurrentContinentPool)
+                local selContinentId = math.random(#tCurrentContinentPool)
                 m_ContinentToBaseContinent[iContinent] = tCurrentContinentPool[selContinentId]
                 table.remove(tCurrentContinentPool, selContinentId)
             end
@@ -91,7 +91,10 @@ function WildPredators(iPlayer)
                 tCurrentContinentPool = tBaseContinents
             end
 
-            print(GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent])
+            local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
+            m_ContinentPlots[iContinent] = tablelength(eligiblePlots)
+
+            print(GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent] .. " plots " .. m_ContinentPlots[iContinent])
         end
     end
 
