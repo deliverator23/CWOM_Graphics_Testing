@@ -129,7 +129,13 @@ function WildPredators(iPlayer)
 
                 if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and unitSpawnContinent.ContinentType == spawningRuleContinent then
 
-                    if math.random(unitSpawnContinent.RandomSize) == 1 then
+                    local continentPlots = m_ContinentPlots[iContinent]
+                    local continentRandomSumSize = m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]]
+                    local randomSize = math.floor(unitSpawnContinent.RandomSize * continentRandomSumSize / continentPlots)
+
+                    print(GameInfo.Continents[iContinent].ContinentType .. " " .. spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. " random size: " .. randomSize )
+
+                    if math.random(randomSize) == 1 then
 
                         -- Remove ineligible plots
                         for currentPlotIndex, currentPlot in pairs(eligiblePlots) do
@@ -169,10 +175,10 @@ function WildPredators(iPlayer)
                             local iRandomEligiblePlotsPosition = math.random(iNumEligiblePlots)
                             local spawnPlot = getelementatpos(eligiblePlots, iRandomEligiblePlotsPosition)
 
-                            local spawnPlotTerrain = getelementatpos(GameInfo.Terrains, spawnPlot:GetTerrainType()).TerrainType
+                            local spawnPlotTerrain = GameInfo.Terrains[spawnPlot:GetTerrainType()].TerrainType
                             local spawnPlotFeature = "NO_FEATURE"
                             if spawnPlot:GetFeatureType() >= 0 then
-                                spawnPlotFeature = getelementatpos(GameInfo.Features, spawnPlot:GetFeatureType()).FeatureType
+                                spawnPlotFeature = GameInfo.Features[spawnPlot:GetFeatureType()].FeatureType
                             end
 
                             print("spawning...")
