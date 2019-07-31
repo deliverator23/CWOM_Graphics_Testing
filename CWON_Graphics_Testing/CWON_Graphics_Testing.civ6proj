@@ -243,6 +243,9 @@
     <Content Include="Geometries\WON_Tutorial.geo">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\Abu_Pyramids.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Abu_Simbel.mtl">
       <SubType>Content</SubType>
     </Content>
