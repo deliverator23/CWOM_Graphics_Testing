@@ -66,6 +66,9 @@ local m_ContinentToBaseContinent
 local m_ContinentPlots
 local m_BaseContinentSumRandomSize
 
+-- Higher = more animals, lower = less animals
+local masterProbabilityAdjustment = 1.0;
+
 function WildPredators(iPlayer)
 
     local tContinents = Map.GetContinentsInUse()
@@ -131,7 +134,7 @@ function WildPredators(iPlayer)
 
                     local continentPlots = m_ContinentPlots[iContinent]
                     local continentRandomSumSize = m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]]
-                    local randomSize = math.floor(unitSpawnContinent.RandomSize * continentRandomSumSize / continentPlots)
+                    local randomSize = math.floor(unitSpawnContinent.RandomSize * continentRandomSumSize / continentPlots / masterProbabilityAdjustment)
 
                     print(GameInfo.Continents[iContinent].ContinentType .. " " .. spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. " random size: " .. randomSize )
 
