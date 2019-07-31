@@ -213,6 +213,96 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects:ObjectValue">
+                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                                <Element class="AssetObjects..BoolValue">
+                                    <m_bValue>true</m_bValue>
+                                    <m_ParamName text="Visible"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="WON_Petra.001"/>
+                        <m_MeshName text="Petra_RocksMain"/>
+                        <m_StateName text="Unworked"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects:ObjectValue">
+                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                                <Element class="AssetObjects..BoolValue">
+                                    <m_bValue>true</m_bValue>
+                                    <m_ParamName text="Visible"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="WON_Petra.001"/>
+                        <m_MeshName text="Petra_RocksMain"/>
+                        <m_StateName text="Worked"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects:ObjectValue">
+                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                                <Element class="AssetObjects..BoolValue">
+                                    <m_bValue>true</m_bValue>
+                                    <m_ParamName text="Visible"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="WON_Petra.001"/>
+                        <m_MeshName text="Petra_RocksMain"/>
+                        <m_StateName text="Pillaged"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects:ObjectValue">
+                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                                <Element class="AssetObjects..BoolValue">
+                                    <m_bValue>true</m_bValue>
+                                    <m_ParamName text="Visible"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="WON_Petra.001"/>
+                        <m_MeshName text="Petra_RocksMain"/>
+                        <m_StateName text="Unbuilt"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects:ObjectValue">
+                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                                <Element class="AssetObjects..BoolValue">
+                                    <m_bValue>true</m_bValue>
+                                    <m_ParamName text="Visible"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="WON_Petra.001"/>
+                        <m_MeshName text="Petra_RocksMain"/>
+                        <m_StateName text="Construction"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects:ObjectValue">
                                     <m_ObjectName text="Abu_Pyramids"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
