@@ -213,7 +213,7 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_ObjectName text="Abu_Petra"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
                                 </Element>
@@ -231,7 +231,7 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_ObjectName text="Abu_Petra"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
                                 </Element>
@@ -249,7 +249,7 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_ObjectName text="Abu_Petra"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
                                 </Element>
@@ -267,7 +267,7 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_ObjectName text="Abu_Petra"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
                                 </Element>
@@ -285,7 +285,7 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="WON_Petra"/>
+                                    <m_ObjectName text="Abu_Petra"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
                                 </Element>
