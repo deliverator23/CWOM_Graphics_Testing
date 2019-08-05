@@ -10,6 +10,14 @@
 	<m_PackageName text="landmarks/tilebases"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="Abu_Simbel"/>
+			<m_ObjectName text="Abu_Simbel"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Pyramid_Obelisk"/>
+			<m_ObjectName text="Pyramid_Obelisk"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Charminar"/>
 			<m_ObjectName text="Charminar"/>
 		</Element>

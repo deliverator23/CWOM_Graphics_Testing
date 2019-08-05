@@ -45,10 +45,13 @@
     <Content Include="Assets\Abu_Simbel.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Abu_Simbel_WonderMovie.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Bamyan_Buddha.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Bamyan_Buddhas_Wonder.ast">
+    <Content Include="Assets\Bamyan_WonderMovie.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Blythe_Intaglios_Wonder.ast">
@@ -61,6 +64,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Charminar.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Charminar_WonderMovie.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Empire_State_Building.ast">
@@ -241,6 +247,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\WON_Tutorial.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Abu_Petra.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Abu_Pyramids.mtl">
