@@ -275,7 +275,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text=""/>
+									<m_EntryName text="Abu_Simbel_HB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -305,8 +305,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>3.450626</x>
+							<y>-2.402424</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -315,7 +315,7 @@
 							<z>0.000000</z>
 						</m_orientation>
 						<m_Name text="Abu_Simbel_HB"/>
-						<m_BoneName text="HB_Bone"/>
+						<m_BoneName text="WON_Bone"/>
 						<m_ModelInstanceName text="WON_Dummy"/>
 						<m_scale>1.000000</m_scale>
 					</Element>
