@@ -45,6 +45,9 @@
     <Content Include="Assets\Abu_Simbel.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Abu_Simbel_HB.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Abu_Simbel_WonderMovie.ast">
       <SubType>Content</SubType>
     </Content>
