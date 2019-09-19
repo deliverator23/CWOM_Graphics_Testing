@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_BUILDING_TOWER_BRIDGE_NAME">
+            <Text>Tower Bridge</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_TOWER_BRIDGE_DESCRIPTION">
+            <Text></Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_TOWER_BRIDGE_QUOTE">
+            <Text>"The statesmen who construct, and the warriors who achieve, are only influenced by the instinct of power, and animated by the love of country. Those are the feelings and those the methods which form empires." - Benjamin Disraeli</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TOWER_BRIDGE_CHAPTER_HISTORY_PARA_1">
+            <Text></Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TOWER_BRIDGE_CHAPTER_HISTORY_PARA_2">
+            <Text></Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TOWER_BRIDGE_CHAPTER_HISTORY_PARA_3">
+            <Text></Text>
+        </Row>
+    </EnglishText>
+</GameData>
