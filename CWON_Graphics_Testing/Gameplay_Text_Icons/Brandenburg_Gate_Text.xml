@@ -5,7 +5,7 @@
             <Text>Brandenburg Gate</Text>
         </Row>
         <Row Tag="LOC_BUILDING_BRANDENBURG_GATE_DESCRIPTION">
-            <Text></Text>
+            <Text>+25% combat experience for all land units trained in this city. 1 free Great General appears (if available).</Text>
         </Row>
         <Row Tag="LOC_BUILDING_BRANDENBURG_GATE_QUOTE">
             <Text>"Pale Death beats equally at the poor man's gate and at the palaces of kings." – Horace</Text>
