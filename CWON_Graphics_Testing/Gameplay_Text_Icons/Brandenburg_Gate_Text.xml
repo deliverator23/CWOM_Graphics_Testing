@@ -5,7 +5,7 @@
             <Text>Brandenburg Gate</Text>
         </Row>
         <Row Tag="LOC_BUILDING_BRANDENBURG_GATE_DESCRIPTION">
-            <Text>+25% combat experience for all land units trained in this city. 1 free Great General appears (if available).</Text>
+            <Text>+25% combat experience for all land units trained in this city. 1 free Great General appears (if available). +3 Loyalty per turn for cities with a garrisoned unit (with Rise and Fall only). Must be built adjacent to a City Center on Flat Grassland, Plains or Tundra tile.</Text>
         </Row>
         <Row Tag="LOC_BUILDING_BRANDENBURG_GATE_QUOTE">
             <Text>"Pale Death beats equally at the poor man's gate and at the palaces of kings." – Horace</Text>
