@@ -11,7 +11,7 @@ INSERT INTO Building_GreatPersonPoints (BuildingType, GreatPersonClassType, Poin
 VALUES ('BUILDING_PORCELAIN_TOWER', 'GREAT_PERSON_CLASS_SCIENTIST', '2');
 
 
--- Provides 1 copy of Porcelain Resource.
+-- Grants a free copy of the Porcelain Luxury Resource (not tradeable) which provides +6 Amenities.
 INSERT INTO Types
 (Type, Kind)
 VALUES ('RESOURCE_PORCELAIN', 'KIND_RESOURCE');

@@ -5,7 +5,7 @@
             <Text>Porcelain Tower</Text>
         </Row>
         <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION">
-            <Text></Text>
+            <Text>Grants a free copy of the Porcelain Luxury Resource (not tradeable) which provides +6 Amenities.</Text>
         </Row>
         <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_QUOTE">
             <Text>"In the middle of the Plain stands a high Steeple or Tower made of Porcelane, which far exceed all other Workmanship of the Chinese in cost and skill; by which the Chinese have declared to the World the rare Ingenuity of their Artists in former Ages." - Johannes Nieuhof</Text>
