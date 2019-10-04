@@ -5,7 +5,7 @@
             <Text>Tower Bridge</Text>
         </Row>
         <Row Tag="LOC_BUILDING_TOWER_BRIDGE_DESCRIPTION">
-            <Text></Text>
+            <Text>+10% Production in cities on Capital Continent and +10% Gold in cities not on Capital Continent.</Text>
         </Row>
         <Row Tag="LOC_BUILDING_TOWER_BRIDGE_QUOTE">
             <Text>"The statesmen who construct, and the warriors who achieve, are only influenced by the instinct of power, and animated by the love of country. Those are the feelings and those the methods which form empires." - Benjamin Disraeli</Text>
