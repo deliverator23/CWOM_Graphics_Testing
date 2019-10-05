@@ -45,7 +45,17 @@
                 <m_eObjectType>TEXTURE</m_eObjectType>
                 <m_ParamName text="Opacity"/>
             </Element>
-        </m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="porcelain_tower_L"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="LightMap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="porcelain_tower_E"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Emissive"/>
+			</Element>
+		</m_Values>
     </m_CookParams>
     <m_Version>
         <major>3</major>

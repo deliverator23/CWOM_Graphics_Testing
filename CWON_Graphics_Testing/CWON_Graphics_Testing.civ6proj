@@ -276,16 +276,52 @@
     <Content Include="Materials\Blythe_Intaglios_Diff.mtl">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\brgt_texture0.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture3.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture4.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture5.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture6.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture7.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture8.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\brgt_texture9.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Burj_Khalifa_SREF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Chains.mtl">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\charminar_gate.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Coat_of_Arms.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Corner_Towers.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\dummymaterial.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\FX_Blk_Blk4x4.mtl">
@@ -336,6 +372,12 @@
     <Content Include="Materials\Pavement.mtl">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\Porcelain_Tower.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Porcelain_Tower_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Railings.mtl">
       <SubType>Content</SubType>
     </Content>
@@ -358,6 +400,540 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\WON_MachuPicchu_HMedit.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\6138fe4d.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_AO_v2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_AO_v2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_b_v1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_b_v1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_b_v4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Abu_Simbel_b_v4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Archways.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Archways.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Attic.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Attic.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Bamyan_Buddha_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Bamyan_Buddha_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Bamyan_Buddha_a2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Bamyan_Buddha_a2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff_large.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_diff_large.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_h.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_height.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\blythe_intaglios_height.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture0.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture0.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture1.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture2.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture3.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture4.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture5.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture5.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture6.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture6.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture7.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture7.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture8.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture8.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture9.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\brgt_texture9.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Chains.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Chains.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Chains_OPAC.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Chains_OPAC.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\charminar_gate.%281,1,8,7%29.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\charminar_gate.%281,1,8,7%29.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\charminar_gate_bump.%286,0,9,7%29.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\charminar_gate_bump.%286,0,9,7%29.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\charminar_gate_OPAC.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\charminar_gate_OPAC.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Coat_of_Arms.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Coat_of_Arms.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Corner_Towers.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Corner_Towers.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Dark_Pyramids_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Dark_Pyramids_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal_512.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal_512.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_buildout.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_buildout.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_decal_heightmap.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_decal_heightmap.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_ground.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\globetheatre_ground.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Itsukushima_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Islands.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Islands.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_decal_heightmap.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_decal_heightmap.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\leaning_tower_hb_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Main_Walls.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Main_Walls.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_grnd_h_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_castle_hb_grnd_h_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Neuschwanstein_HMedit_V3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_mountain_diff_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstein_mountain_diff_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstien_castle_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\neuschwanstien_castle_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pavement.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pavement.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Petra_Rocks_Only_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Petra_Rocks_Only_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_512.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_512.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_decal_512.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_decal_512.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_E.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_E.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_L.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_L.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_lights.pdn">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_normal_512.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_normal_512.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_OPAC_512.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\porcelain_tower_OPAC_512.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Railings.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Railings.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Road.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Road.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Roof.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Roof.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sphinx_Baked_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sphinx_Baked_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_hb_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_hb_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ufizzi_grnd_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_HMEdit.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_HMEdit.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Pillaged_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_UnderConstruction_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Itsukushima_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MachuPicchu_HMedit.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MachuPicchu_HMedit.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Yellow_Petra_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Yellow_Petra_B.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\strategicview_buildings.xlp">
