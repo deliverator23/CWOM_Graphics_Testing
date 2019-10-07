@@ -8,7 +8,7 @@
                 <m_ParamName text="BaseColor"/>
             </Element>
             <Element class="AssetObjects..ObjectValue">
-                <m_ObjectName text="Flat_Normal"/>
+                <m_ObjectName text="Flat_Normal_512"/>
                 <m_eObjectType>TEXTURE</m_eObjectType>
                 <m_ParamName text="Normal"/>
             </Element>

@@ -63,6 +63,9 @@
     <Content Include="Assets\Blythe_Intaglios__Box01.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Brandenburg_Gate.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Burj_Khalifa.ast">
       <SubType>Content</SubType>
     </Content>
@@ -97,6 +100,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Neuschwanstein_Castle__Decal.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Porcelain_Tower.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Porcelain_Tower_Decal.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Porcelain_Tower_WonderMovie.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Pyramid_Obelisk.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Tower_Bridge.ast">
