@@ -18,7 +18,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>CWON_Graphics_Testing</AssemblyName>
     <RootNamespace>CWON_Graphics_Testing</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="CWON_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="CWON_DB"><File>Gameplay.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="CWON_Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -124,9 +124,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Uffizi__Uffizi.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Gameplay.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\Bamyan_Buddha.fgx">
